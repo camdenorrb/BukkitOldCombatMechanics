@@ -122,6 +122,7 @@ public class OCMMain extends JavaPlugin {
 		ModuleLoader.AddModule(new ModuleProjectileKnockback(this));
 		ModuleLoader.AddModule(new ModuleNoLapisEnchantments(this));
 		ModuleLoader.AddModule(new ModuleDisableEnderpearlCooldown(this));
+		ModuleLoader.AddModule(new ModuleOldTNTMechanics(this));
 
 		getCommand("OldCombatMechanics").setExecutor(new OCMCommandHandler(this, this.getFile()));// Firing commands listener
 	}
